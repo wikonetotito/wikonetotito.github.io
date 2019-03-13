@@ -1,0 +1,85 @@
+.header{
+	background-color:black;
+	text-align:center;
+	margin:50px;
+	padding: 50px;
+}
+
+.header h1{
+	color: red;
+	font-size:60px;
+}
+
+.header p{
+	font-family: "Arial";
+	color:white;
+}
+
+.menu {
+	background-color: black;
+	overflow: hidden;
+	margin:50px;
+}
+
+.menu a{
+
+	float: left;
+	display: block;
+	color:white;
+	display: block;
+	text-align: center;
+	padding: 20px;
+}
+
+.menu a:hover{
+	color:white;
+	background-color: red;
+}
+
+.izquierda{
+	text-align: center;
+	margin-left:50px;
+	margin-top:5px;
+	float:left;
+	width:60%;
+}
+
+.item{
+	float:left;
+	background-color:white;
+	width:80%;
+	padding:30px;
+}
+
+.imagen{
+	width: 200px;
+
+}
+
+body{
+	background-color: red;
+}
+
+.derecha{
+	text-align:center;
+	margin-top:5px;
+	float:left;
+	margin-left:-50px;
+	width: 36%;
+	background-color:white;
+}
+
+.contenido:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.footer{
+	padding: 10px;
+	margin: 50px;
+	text-align: center;
+	background-color: black;
+	color:white;
+	margin-top: 60px;
+}
